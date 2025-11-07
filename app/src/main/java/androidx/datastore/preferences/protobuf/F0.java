@@ -1,0 +1,29 @@
+package androidx.datastore.preferences.protobuf;
+
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX WARN: Unknown enum class pattern. Please report as an issue! */
+/* loaded from: classes.dex */
+public final class F0 {
+    private static final /* synthetic */ F0[] $VALUES;
+    public static final F0 ASCENDING;
+    public static final F0 DESCENDING;
+
+    /* JADX WARN: Multi-variable type inference failed */
+    /* JADX WARN: Type inference failed for: r2v0, types: [java.lang.Enum, androidx.datastore.preferences.protobuf.F0] */
+    /* JADX WARN: Type inference failed for: r3v1, types: [java.lang.Enum, androidx.datastore.preferences.protobuf.F0] */
+    static {
+        ?? r22 = new Enum("ASCENDING", 0);
+        ASCENDING = r22;
+        ?? r3 = new Enum("DESCENDING", 1);
+        DESCENDING = r3;
+        $VALUES = new F0[]{r22, r3};
+    }
+
+    public static F0 valueOf(String str) {
+        return (F0) Enum.valueOf(F0.class, str);
+    }
+
+    public static F0[] values() {
+        return (F0[]) $VALUES.clone();
+    }
+}
